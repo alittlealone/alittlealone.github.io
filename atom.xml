@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-30T12:33:54.000Z</updated>
+  <updated>2018-01-30T17:28:11.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,16 +21,15 @@
     <link href="http://yoursite.com/2018/01/30/TransH/"/>
     <id>http://yoursite.com/2018/01/30/TransH/</id>
     <published>2018-01-30T12:12:44.000Z</published>
-    <updated>2018-01-30T12:33:54.000Z</updated>
+    <updated>2018-01-30T17:28:11.000Z</updated>
     
-    <content type="html"><![CDATA[<p>TranH: </p>]]></content>
+    <content type="html"><![CDATA[<h1 id="TranH"><a href="#TranH" class="headerlink" title="TranH:"></a>TranH:</h1>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;TranH: &lt;/p&gt;
-
+        &lt;h1 id=&quot;TranH&quot;&gt;&lt;a href=&quot;#TranH&quot; class=&quot;headerlink&quot; title=&quot;TranH:&quot;&gt;&lt;/a&gt;TranH:&lt;/h1&gt;
       
     
     </summary>
@@ -43,16 +42,14 @@
     <link href="http://yoursite.com/2018/01/30/TransE/"/>
     <id>http://yoursite.com/2018/01/30/TransE/</id>
     <published>2018-01-30T07:31:35.000Z</published>
-    <updated>2018-01-30T11:43:18.000Z</updated>
+    <updated>2018-01-30T17:27:54.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="transE-the-cornerstone-of-translation-approaches"><a href="#transE-the-cornerstone-of-translation-approaches" class="headerlink" title="transE: the cornerstone of translation approaches"></a>transE: the cornerstone of translation approaches</h1><below are="" shown="" in="" abstract=""><p>TransE model proposed by Bordes et al. 提出了今后一系列translation方法的根基：</p><p>The functional relation induced by the $r$-labeled edges corresponds to a translation of the embeddings, i.e. $h + r \approx t$ when $(h, r, t)$ holds.</p><above are="" shown="" in="" abstract=""><p>##Basic Idea</p><p>In TransE, relationships are represented as translations in the embedding space:</p><p>if $(h, r, t)$ holds, then the embedding of the tail entity $t$ should be close to the embedding of the head entity $h$ plus some vector that depends on the relationship $r$, which is<br>$$<br>h + r \approx t<br>$$<br>TransE maps all the entities and relations into the same embedding space, and learns only one low-dimensional vector for each of them.</p><p>##Methodology</p><p>The functional relation induced by the $r$-labeled edges corresponds to a translation of the embeddings, i.e. $h + r \approx t$ when $(h, r, t)$ holds, while $h+r$ should be far away from $t$ otherwise.</p><p>The <strong>energy</strong> of a triplet is set to be $d(h+r, t)$ for some dissimilarity measure $d$, which is $L_1$ or $L_2$-norm.</p><p>Following an energy-based framework, the <strong>goal</strong> of TransE is to minimize a margin-based ranking criterion over the training set:<br>$$<br>L=\sum<em>{(h,r,t)\in S}\sum</em>{(h’,r,t’)\in S’<em>{(h,r,t)}}[\gamma + d(h+r, t) - d(h’+r, t’)]</em>{+}<br>$$<br>where $[x]<em>{+}$ denotes the positive part of $x$, which can also be denoted as $max(0, x)$. This can force $x$ to try to be as near $0$ as possible. $\gamma&gt;0$ is a margin hyperparameter, $S’$ is the set of corrupted triplets, constructed by replacing either head or tail entity by a random one:<br>$$<br>S’</em>{(h, r, t)} = \left{(h’, r, t) | h’ \in E \right} \cup \left{(h, r, t’)|t’\in E \right}<br>$$<br>The optimization is carried out by <strong>SGD</strong>, and the <strong>additional constraints</strong> that the $L_2$-norm of the embeddings of the entities is $1$, while no regularization or norm constraints are given to the label embeddings $r$. </p><p>The algorithm is stopped based on its performance on a validation set.</p><h2 id="Implementation"><a href="#Implementation" class="headerlink" title="Implementation"></a>Implementation</h2><p>TransE can be implemented according to the algorithm:</p><pic><p>Note:</p><ul><li>relation $r$ is denoted as $l$ in the above algorithm</li><li>$l$ is normalized in the initialization stage, while the embedding vectors of the entities are first normalized at each main iteration</li><li>For each triplet in minibatch, sample a single corrupted triplet from $S’$. Golden triplets and corrupted triplets together consist triplet batch</li><li>Train to minimize $L$</li><li>$[x]_{+}$ is implemented by $max(0, x)$</li></ul><p>My implementation of TransE in tensorflow can be found on:</p><url></url></pic></above></below>]]></content>
+    <content type="html"><![CDATA[<h1 id="TransE-the-cornerstone-of-translation-approaches"><a href="#TransE-the-cornerstone-of-translation-approaches" class="headerlink" title="TransE: the cornerstone of translation approaches"></a>TransE: the cornerstone of translation approaches</h1><p>TransE model proposed by Bordes et al. 提出了今后一系列translation方法的根基：</p><p>The functional relation induced by the $r$-labeled edges corresponds to a translation of the embeddings, i.e. $h + r \approx t$ when $(h, r, t)$ holds.</p><a id="more"></a><p>##Basic Idea</p><p>In TransE, relationships are represented as translations in the embedding space:</p><p>if $(h, r, t)$ holds, then the embedding of the tail entity $t$ should be close to the embedding of the head entity $h$ plus some vector that depends on the relationship $r$, which is<br>$$<br>h + r \approx t<br>$$<br>TransE maps all the entities and relations into the same embedding space, and learns only one low-dimensional vector for each of them.</p><p>##Methodology</p><p>The functional relation induced by the $r$-labeled edges corresponds to a translation of the embeddings, i.e. $h + r \approx t$ when $(h, r, t)$ holds, while $h+r$ should be far away from $t$ otherwise.</p><p>The <strong>energy</strong> of a triplet is set to be $d(h+r, t)$ for some dissimilarity measure $d$, which is $L_1$ or $L_2$-norm.</p><p>Following an energy-based framework, the <strong>goal</strong> of TransE is to minimize a margin-based ranking criterion over the training set:<br>$$<br>L=\sum<em>{(h,r,t)\in S}\sum</em>{(h’,r,t’)\in S’<em>{(h,r,t)}}[\gamma + d(h+r, t) - d(h’+r, t’)]</em>{+}<br>$$<br>where $[x]<em>{+}$ denotes the positive part of $x$, which can also be denoted as $max(0, x)$. This can force $x$ to try to be as near $0$ as possible. $\gamma&gt;0$ is a margin hyperparameter, $S’$ is the set of corrupted triplets, constructed by replacing either head or tail entity by a random one:<br>$$<br>S’</em>{(h, r, t)} = \left{(h’, r, t) | h’ \in E \right} \cup \left{(h, r, t’)|t’\in E \right}<br>$$<br>The optimization is carried out by <strong>SGD</strong>, and the <strong>additional constraints</strong> that the $L_2$-norm of the embeddings of the entities is $1$, while no regularization or norm constraints are given to the label embeddings $r$. </p><p>The algorithm is stopped based on its performance on a validation set.</p><h2 id="Implementation"><a href="#Implementation" class="headerlink" title="Implementation"></a>Implementation</h2><p>TransE can be implemented according to the algorithm:</p><p><img src="TransEAlg.png" alt="alg"></p><p>Note:</p><ul><li>relation $r$ is denoted as $l$ in the above algorithm</li><li>$l$ is normalized in the initialization stage, while the embedding vectors of the entities are first normalized at each main iteration</li><li>For each triplet in minibatch, sample a single corrupted triplet from $S’$. Golden triplets and corrupted triplets together consist triplet batch</li><li>Train to minimize $L$</li><li>$[x]_{+}$ is implemented by $max(0, x)$</li></ul><p>My implementation of TransE in tensorflow can be found on:</p><p><a href="http://baidu.com" target="_blank" rel="noopener">TransE implementation in tensorflow</a></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;transE-the-cornerstone-of-translation-approaches&quot;&gt;&lt;a href=&quot;#transE-the-cornerstone-of-translation-approaches&quot; class=&quot;headerlink&quot; tit
-      
+      &lt;h1 id=&quot;TransE-the-cornerstone-of-translation-approaches&quot;&gt;&lt;a href=&quot;#TransE-the-cornerstone-of-translation-approaches&quot; class=&quot;headerlink&quot; title=&quot;TransE: the cornerstone of translation approaches&quot;&gt;&lt;/a&gt;TransE: the cornerstone of translation approaches&lt;/h1&gt;&lt;p&gt;TransE model proposed by Bordes et al. 提出了今后一系列translation方法的根基：&lt;/p&gt;
+&lt;p&gt;The functional relation induced by the $r$-labeled edges corresponds to a translation of the embeddings, i.e. $h + r \approx t$ when $(h, r, t)$ holds.&lt;/p&gt;
     
     </summary>
     

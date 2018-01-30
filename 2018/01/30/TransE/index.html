@@ -13,17 +13,19 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="transE: the cornerstone of translation approaches  TransE model proposed by Bordes et al. 提出了今后一系列translation方法的根基： The functional relation induced by the $r$-l">
+    <meta name="description" content="TransE: the cornerstone of translation approachesTransE model proposed by Bordes et al. 提出了今后一系列translation方法的根基： The functional relation induced by the $r$-lab">
 <meta property="og:type" content="blog">
 <meta property="og:title" content="joker&#39;s blog">
 <meta property="og:url" content="http://yoursite.com/2018/01/30/TransE/index.html">
 <meta property="og:site_name" content="joker&#39;s blog">
-<meta property="og:description" content="transE: the cornerstone of translation approaches  TransE model proposed by Bordes et al. 提出了今后一系列translation方法的根基： The functional relation induced by the $r$-labeled edges corresponds to a translatio">
+<meta property="og:description" content="TransE: the cornerstone of translation approachesTransE model proposed by Bordes et al. 提出了今后一系列translation方法的根基： The functional relation induced by the $r$-labeled edges corresponds to a translation">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-01-30T11:43:18.000Z">
+<meta property="og:image" content="http://yoursite.com/2018/01/30/TransE/TransEAlg.png">
+<meta property="og:updated_time" content="2018-01-30T17:27:54.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="joker&#39;s blog">
-<meta name="twitter:description" content="transE: the cornerstone of translation approaches  TransE model proposed by Bordes et al. 提出了今后一系列translation方法的根基： The functional relation induced by the $r$-labeled edges corresponds to a translatio">
+<meta name="twitter:description" content="TransE: the cornerstone of translation approachesTransE model proposed by Bordes et al. 提出了今后一系列translation方法的根基： The functional relation induced by the $r$-labeled edges corresponds to a translation">
+<meta name="twitter:image" content="http://yoursite.com/2018/01/30/TransE/TransEAlg.png">
     
     
         
@@ -205,14 +207,9 @@
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <h1 id="transE-the-cornerstone-of-translation-approaches"><a href="#transE-the-cornerstone-of-translation-approaches" class="headerlink" title="transE: the cornerstone of translation approaches"></a>transE: the cornerstone of translation approaches</h1><below are="" shown="" in="" abstract="">
-
-<p>TransE model proposed by Bordes et al. 提出了今后一系列translation方法的根基：</p>
+            <h1 id="TransE-the-cornerstone-of-translation-approaches"><a href="#TransE-the-cornerstone-of-translation-approaches" class="headerlink" title="TransE: the cornerstone of translation approaches"></a>TransE: the cornerstone of translation approaches</h1><p>TransE model proposed by Bordes et al. 提出了今后一系列translation方法的根基：</p>
 <p>The functional relation induced by the $r$-labeled edges corresponds to a translation of the embeddings, i.e. $h + r \approx t$ when $(h, r, t)$ holds.</p>
-<above are="" shown="" in="" abstract="">
-
-
-
+<a id="more"></a>
 <p>##Basic Idea</p>
 <p>In TransE, relationships are represented as translations in the embedding space:</p>
 <p>if $(h, r, t)$ holds, then the embedding of the tail entity $t$ should be close to the embedding of the head entity $h$ plus some vector that depends on the relationship $r$, which is<br>$$<br>h + r \approx t<br>$$<br>TransE maps all the entities and relations into the same embedding space, and learns only one low-dimensional vector for each of them.</p>
@@ -222,8 +219,7 @@
 <p>Following an energy-based framework, the <strong>goal</strong> of TransE is to minimize a margin-based ranking criterion over the training set:<br>$$<br>L=\sum<em>{(h,r,t)\in S}\sum</em>{(h’,r,t’)\in S’<em>{(h,r,t)}}[\gamma + d(h+r, t) - d(h’+r, t’)]</em>{+}<br>$$<br>where $[x]<em>{+}$ denotes the positive part of $x$, which can also be denoted as $max(0, x)$. This can force $x$ to try to be as near $0$ as possible. $\gamma&gt;0$ is a margin hyperparameter, $S’$ is the set of corrupted triplets, constructed by replacing either head or tail entity by a random one:<br>$$<br>S’</em>{(h, r, t)} = \left{(h’, r, t) | h’ \in E \right} \cup \left{(h, r, t’)|t’\in E \right}<br>$$<br>The optimization is carried out by <strong>SGD</strong>, and the <strong>additional constraints</strong> that the $L_2$-norm of the embeddings of the entities is $1$, while no regularization or norm constraints are given to the label embeddings $r$. </p>
 <p>The algorithm is stopped based on its performance on a validation set.</p>
 <h2 id="Implementation"><a href="#Implementation" class="headerlink" title="Implementation"></a>Implementation</h2><p>TransE can be implemented according to the algorithm:</p>
-<pic>
-
+<p><img src="TransEAlg.png" alt="alg"></p>
 <p>Note:</p>
 <ul>
 <li>relation $r$ is denoted as $l$ in the above algorithm</li>
@@ -233,9 +229,8 @@
 <li>$[x]_{+}$ is implemented by $max(0, x)$</li>
 </ul>
 <p>My implementation of TransE in tensorflow can be found on:</p>
-<url>
+<p><a href="http://baidu.com" target="_blank" rel="noopener">TransE implementation in tensorflow</a></p>
 
-</url></pic></above></below>
             
 
         </div>
