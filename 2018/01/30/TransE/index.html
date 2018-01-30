@@ -21,7 +21,7 @@
 <meta property="og:description" content="TransE model proposed by Bordes et al. 提出了今后一系列translation方法的根基： The functional relation induced by the $r$-labeled edges corresponds to a translation of the embeddings, i.e. $h + r \approx t$ when $(">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://yoursite.com/2018/01/30/TransE/TransEAlg.png">
-<meta property="og:updated_time" content="2018-01-30T17:36:12.000Z">
+<meta property="og:updated_time" content="2018-01-30T17:46:27.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TransE - the cornerstone of translation approaches">
 <meta name="twitter:description" content="TransE model proposed by Bordes et al. 提出了今后一系列translation方法的根基： The functional relation induced by the $r$-labeled edges corresponds to a translation of the embeddings, i.e. $h + r \approx t$ when $(">
@@ -210,11 +210,9 @@
             <p>TransE model proposed by Bordes et al. 提出了今后一系列translation方法的根基：</p>
 <p>The functional relation induced by the $r$-labeled edges corresponds to a translation of the embeddings, i.e. $h + r \approx t$ when $(h, r, t)$ holds.</p>
 <a id="more"></a>
-<p>##Basic Idea</p>
-<p>In TransE, relationships are represented as translations in the embedding space:</p>
+<h2 id="Basic-Idea"><a href="#Basic-Idea" class="headerlink" title="Basic Idea"></a>Basic Idea</h2><p>In TransE, relationships are represented as translations in the embedding space:</p>
 <p>if $(h, r, t)$ holds, then the embedding of the tail entity $t$ should be close to the embedding of the head entity $h$ plus some vector that depends on the relationship $r$, which is<br>$$<br>h + r \approx t<br>$$<br>TransE maps all the entities and relations into the same embedding space, and learns only one low-dimensional vector for each of them.</p>
-<p>##Methodology</p>
-<p>The functional relation induced by the $r$-labeled edges corresponds to a translation of the embeddings, i.e. $h + r \approx t$ when $(h, r, t)$ holds, while $h+r$ should be far away from $t$ otherwise.</p>
+<h2 id="Methodology"><a href="#Methodology" class="headerlink" title="Methodology"></a>Methodology</h2><p>The functional relation induced by the $r$-labeled edges corresponds to a translation of the embeddings, i.e. $h + r \approx t$ when $(h, r, t)$ holds, while $h+r$ should be far away from $t$ otherwise.</p>
 <p>The <strong>energy</strong> of a triplet is set to be $d(h+r, t)$ for some dissimilarity measure $d$, which is $L_1$ or $L_2$-norm.</p>
 <p>Following an energy-based framework, the <strong>goal</strong> of TransE is to minimize a margin-based ranking criterion over the training set:<br>$$<br>L=\sum<em>{(h,r,t)\in S}\sum</em>{(h’,r,t’)\in S’<em>{(h,r,t)}}[\gamma + d(h+r, t) - d(h’+r, t’)]</em>{+}<br>$$<br>where $[x]<em>{+}$ denotes the positive part of $x$, which can also be denoted as $max(0, x)$. This can force $x$ to try to be as near $0$ as possible. $\gamma&gt;0$ is a margin hyperparameter, $S’$ is the set of corrupted triplets, constructed by replacing either head or tail entity by a random one:<br>$$<br>S’</em>{(h, r, t)} = \left{(h’, r, t) | h’ \in E \right} \cup \left{(h, r, t’)|t’\in E \right}<br>$$<br>The optimization is carried out by <strong>SGD</strong>, and the <strong>additional constraints</strong> that the $L_2$-norm of the embeddings of the entities is $1$, while no regularization or norm constraints are given to the label embeddings $r$. </p>
 <p>The algorithm is stopped based on its performance on a validation set.</p>
