@@ -6,21 +6,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="joker&#39;s blog">
-    <title>TranH - joker&#39;s blog</title>
+    <title> - joker&#39;s blog</title>
     <meta name="author" content="joker">
     
     
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta property="og:type" content="blog">
-<meta property="og:title" content="TranH">
-<meta property="og:url" content="http://yoursite.com/2018/01/30/TransH/index.html">
+    <meta name="description" content="title: Handling Dependency – Bins and Balls Bins and BallsPut $m$ balls into $n$ bins randomly, denoted as $(m,n)$-model.  basic properties number of balls in a">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="joker&#39;s blog">
+<meta property="og:url" content="http://yoursite.com/2018/02/03/handling dependency/index.html">
 <meta property="og:site_name" content="joker&#39;s blog">
+<meta property="og:description" content="title: Handling Dependency – Bins and Balls Bins and BallsPut $m$ balls into $n$ bins randomly, denoted as $(m,n)$-model.  basic properties number of balls in any bin: $Bin(m, \frac{1}{n})$ numbers of">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-01-30T17:35:44.000Z">
+<meta property="og:updated_time" content="2018-02-02T14:26:16.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="TranH">
+<meta name="twitter:title" content="joker&#39;s blog">
+<meta name="twitter:description" content="title: Handling Dependency – Bins and Balls Bins and BallsPut $m$ balls into $n$ bins randomly, denoted as $(m,n)$-model.  basic properties number of balls in any bin: $Bin(m, \frac{1}{n})$ numbers of">
     
     
         
@@ -184,14 +187,14 @@
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title" itemprop="headline">
-            TranH
+            (no title)
         </h1>
     
     
         <div class="post-meta">
-    <time itemprop="datePublished" datetime="2018-01-30T20:12:44+08:00">
+    <time itemprop="datePublished" datetime="2018-02-03T00:54:41+08:00">
 	
-		    Jan 30, 2018
+		    Feb 03, 2018
     	
     </time>
     
@@ -202,7 +205,25 @@
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            
+            <p>title: Handling Dependency – Bins and Balls</p>
+<h4 id="Bins-and-Balls"><a href="#Bins-and-Balls" class="headerlink" title="Bins and Balls"></a>Bins and Balls</h4><p>Put $m$ balls into $n$ bins randomly, denoted as $(m,n)$-model.</p>
+<ul>
+<li><p>basic properties</p>
+<p>number of balls in any bin: $Bin(m, \frac{1}{n})$</p>
+<p>numbers of balls in multiple bins: not independent.</p>
+</li>
+</ul>
+<h4 id="Poisson-Approximation-Theorem"><a href="#Poisson-Approximation-Theorem" class="headerlink" title="Poisson Approximation Theorem"></a>Poisson Approximation Theorem</h4><p>$$<br>(X_1^{(m)}, X_2^{(m)}, \dots, X_n^{(m)}) \sim (Y_1^{(\mu)}, Y_2^{(\mu)}, \dots, Y_n^{(\mu)}| \sum_i^{(\mu)}=m)<br>$$</p>
+<h4 id="Condition-free-Poisson-Approximation"><a href="#Condition-free-Poisson-Approximation" class="headerlink" title="Condition-free Poisson Approximation"></a>Condition-free Poisson Approximation</h4><p>$X_i^{m}$: the load of bin $i$ in $(m,n)$-model</p>
+<p>$Y_i^{(m)}$: independent Poisson r.v.s with expectation $\frac{m}{n}$</p>
+<p>For any non-negative $n$-ary fnction $f$, we have<br>$$<br>E[f(X_1^{(m)}, X_2^{(m)}, \dots, X_n^{(m)})] \leq\sqrt{m} E[f( (Y_1^{(m)}, Y_2^{(m)}, \dots, Y_n^{(m)})]<br>$$</p>
+<h4 id="In-terms-of-probability…"><a href="#In-terms-of-probability…" class="headerlink" title="In terms of probability…"></a>In terms of probability…</h4><p>Any event that takes place with probability $p$ in the independent Poisson coupling takes places in Bins&amp;Balls setting with probability at most $pe\sqrt{m}$.</p>
+<p>If the probability of an event in Bins&amp;Balls is monotonic in $m$, it is at most twice of that in the independent Poisson coupling.</p>
+<h4 id="relation-between-Poisson-and-Normal-distribution"><a href="#relation-between-Poisson-and-Normal-distribution" class="headerlink" title="relation between Poisson and Normal distribution"></a>relation between Poisson and Normal distribution</h4><p>Should be related since both approximate binomial distribution.</p>
+<p>When $\lambda \to \infty$, Poisson converges to Normal.</p>
+<p>Specifically, $\lim<em>{\lambda \to \infty}\sum</em>{\alpha&lt;k&lt; \beta}\frac{\lambda^k e^{-\lambda}}{k!}=\frac{1}{\sqrt{2\pi}}\int_a^b e^{-\frac{x^2}{2}}dx$</p>
+<p>where $a=(\alpha-\lambda)/\sqrt{\lambda}$, $b=(\beta-\lambda)/\sqrt{\lambda}$ are fixed.</p>
+
             
 
         </div>
@@ -216,7 +237,7 @@
             <li class="post-action">
                 
                     
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/02/03/fundamental laws/" data-tooltip="(no title)" aria-label="PREVIOUS: (no title)">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/02/03/Method of counting and expectation/" data-tooltip="(no title)" aria-label="PREVIOUS: (no title)">
                 
                     <i class="fa fa-angle-left" aria-hidden="true"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -225,7 +246,7 @@
             <li class="post-action">
                 
                     
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/01/30/TransE/" data-tooltip="TransE - the cornerstone of translation approaches" aria-label="NEXT: TransE - the cornerstone of translation approaches">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/02/03/moments and inequalities/" data-tooltip="(no title)" aria-label="NEXT: (no title)">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -243,7 +264,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/01/30/TransH/" title="Share on Facebook">
+                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/02/03/handling dependency/" title="Share on Facebook">
                     <i class="fa fa-facebook-official" aria-hidden="true"></i>
                 </a>
             </li>
@@ -251,7 +272,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2018/01/30/TransH/" title="Share on Twitter">
+                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2018/02/03/handling dependency/" title="Share on Twitter">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
             </li>
@@ -259,7 +280,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2018/01/30/TransH/" title="Share on Google+">
+                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2018/02/03/handling dependency/" title="Share on Google+">
                     <i class="fa fa-google-plus" aria-hidden="true"></i>
                 </a>
             </li>
@@ -302,7 +323,7 @@
             <li class="post-action">
                 
                     
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/02/03/fundamental laws/" data-tooltip="(no title)" aria-label="PREVIOUS: (no title)">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/02/03/Method of counting and expectation/" data-tooltip="(no title)" aria-label="PREVIOUS: (no title)">
                 
                     <i class="fa fa-angle-left" aria-hidden="true"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -311,7 +332,7 @@
             <li class="post-action">
                 
                     
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/01/30/TransE/" data-tooltip="TransE - the cornerstone of translation approaches" aria-label="NEXT: TransE - the cornerstone of translation approaches">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/02/03/moments and inequalities/" data-tooltip="(no title)" aria-label="NEXT: (no title)">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -329,7 +350,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/01/30/TransH/" title="Share on Facebook">
+                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/02/03/handling dependency/" title="Share on Facebook">
                     <i class="fa fa-facebook-official" aria-hidden="true"></i>
                 </a>
             </li>
@@ -337,7 +358,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2018/01/30/TransH/" title="Share on Twitter">
+                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2018/02/03/handling dependency/" title="Share on Twitter">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
             </li>
@@ -345,7 +366,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2018/01/30/TransH/" title="Share on Google+">
+                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2018/02/03/handling dependency/" title="Share on Google+">
                     <i class="fa fa-google-plus" aria-hidden="true"></i>
                 </a>
             </li>
@@ -372,7 +393,7 @@
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/01/30/TransH/">
+                <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/02/03/handling dependency/">
                     <i class="fa fa-facebook-official" aria-hidden="true"></i><span>Share on Facebook</span>
                 </a>
             </li>
@@ -380,7 +401,7 @@
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2018/01/30/TransH/">
+                <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2018/02/03/handling dependency/">
                     <i class="fa fa-twitter" aria-hidden="true"></i><span>Share on Twitter</span>
                 </a>
             </li>
@@ -388,7 +409,7 @@
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2018/01/30/TransH/">
+                <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2018/02/03/handling dependency/">
                     <i class="fa fa-google-plus" aria-hidden="true"></i><span>Share on Google+</span>
                 </a>
             </li>
