@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-06T03:17:55.000Z</updated>
+  <updated>2018-02-06T03:15:54.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,24 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>attention and language</title>
-    <link href="http://yoursite.com/2018/02/05/cognition-attention%20and%20language/"/>
-    <id>http://yoursite.com/2018/02/05/cognition-attention and language/</id>
-    <published>2018-02-05T08:56:46.000Z</published>
-    <updated>2018-02-06T03:17:55.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Attention in cognition, including divided attention, selective attention, inattentional blindness, change blindness, theories of selective attention, theories of language and cognition and theories of language development.</p><a id="more"></a><h4 id="divided-attention-selective-attention-inattentional-blindness-amp-change-blindness"><a href="#divided-attention-selective-attention-inattentional-blindness-amp-change-blindness" class="headerlink" title="divided attention, selective attention, inattentional blindness &amp; change blindness"></a>divided attention, selective attention, inattentional blindness &amp; change blindness</h4><ul><li><p>divided attention</p><p>When we want to do things simultaneously, what we actually do is switching our attention between different tasks quickly.</p></li></ul><ul><li><p>selective attention</p><p>when we focus one thing at a time, we are exercising selective attention. At any moment, we choose an area we interested at to focus on, and everything else just be ignored.</p><ul><li><p>exogenous</p><p>we don’t have to tell ourselves to look at them, e.g. bright colors, loud noises</p></li><li><p>endogenous</p><p>have to understand it in the first place, then follow it. e.g. an arrow</p></li></ul></li><li><p>inattentional blindness</p><p>We are not consciously aware of things that happen in our visional filed when our attention is directed elsewhere in that filed.</p></li><li><p>change blindness</p><p>fail to notice the difference between a previous state and current state</p></li></ul><h4 id="theories-of-selective-attention"><a href="#theories-of-selective-attention" class="headerlink" title="theories of selective attention"></a>theories of selective attention</h4><ul><li><p>Broadbent’s early selection theory</p><p>all the information goes into one’s <strong>sensory register</strong>, which stores all the information we get. Then these get transferred to the <strong>selective filter</strong>. <strong>Perceptual process</strong> process the selected information to get its meaning.</p><p><img src="b.png" alt=""></p><p>flaw: cocktail party problem: if you filter before you know its meaning, then you shouldn’t identify people calling your name</p></li><li><p>Deutsch &amp; Deutsch’s late selection theory</p><p>Perceptual process happens before selective filter</p><p><img src="dd.png" alt=""></p><p>flaw: waste too much energy process all these information</p></li><li><p>Treismon’s attenuation theory</p><p>Instead of a complete selective filter, we have an <strong>attenuator</strong>: we still assign meaning to the unwanted information, but with a low priority.</p><p><img src="ta.png" alt=""></p></li></ul><h4 id="Theories-of-language-and-cognition"><a href="#Theories-of-language-and-cognition" class="headerlink" title="Theories of language and cognition"></a>Theories of language and cognition</h4><p>different theories of relations between language and thought:</p><ul><li>universalism: thought before language, and thought determines language completely</li><li>thought influence language(Piaget)</li><li>independent, but we learn to use them at the same time(Vygotsky)</li><li>linguistic determinism<ul><li>weak hypothesis: language influences thought</li><li>strong hypothesis: language determines thought completely, also called “Whorfian hypothesis”</li></ul></li></ul><h4 id="Theories-of-language-development-Nativist-learning-interactionist"><a href="#Theories-of-language-development-Nativist-learning-interactionist" class="headerlink" title="Theories of language development: Nativist, learning, interactionist"></a>Theories of language development: Nativist, learning, interactionist</h4><ul><li><p>nativist/innatist</p><p>children are born with the ability to learn language(Chomsky)</p></li><li><p>learning theory</p><p>children only acquire language through reinforcement</p></li><li><p>interactionist</p><p>biological and social factors have to interact to learn language(Vygotsky)</p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Attention in cognition, including divided attention, selective attention, inattentional blindness, change blindness, theories of selective attention, theories of language and cognition and theories of language development.&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Learn</title>
@@ -71,6 +53,24 @@
   </entry>
   
   <entry>
+    <title>attention and language</title>
+    <link href="http://yoursite.com/2018/02/05/cognition-attention%20and%20language/"/>
+    <id>http://yoursite.com/2018/02/05/cognition-attention and language/</id>
+    <published>2018-02-05T08:56:46.000Z</published>
+    <updated>2018-02-06T03:17:55.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Attention in cognition, including divided attention, selective attention, inattentional blindness, change blindness, theories of selective attention, theories of language and cognition and theories of language development.</p><a id="more"></a><h4 id="divided-attention-selective-attention-inattentional-blindness-amp-change-blindness"><a href="#divided-attention-selective-attention-inattentional-blindness-amp-change-blindness" class="headerlink" title="divided attention, selective attention, inattentional blindness &amp; change blindness"></a>divided attention, selective attention, inattentional blindness &amp; change blindness</h4><ul><li><p>divided attention</p><p>When we want to do things simultaneously, what we actually do is switching our attention between different tasks quickly.</p></li></ul><ul><li><p>selective attention</p><p>when we focus one thing at a time, we are exercising selective attention. At any moment, we choose an area we interested at to focus on, and everything else just be ignored.</p><ul><li><p>exogenous</p><p>we don’t have to tell ourselves to look at them, e.g. bright colors, loud noises</p></li><li><p>endogenous</p><p>have to understand it in the first place, then follow it. e.g. an arrow</p></li></ul></li><li><p>inattentional blindness</p><p>We are not consciously aware of things that happen in our visional filed when our attention is directed elsewhere in that filed.</p></li><li><p>change blindness</p><p>fail to notice the difference between a previous state and current state</p></li></ul><h4 id="theories-of-selective-attention"><a href="#theories-of-selective-attention" class="headerlink" title="theories of selective attention"></a>theories of selective attention</h4><ul><li><p>Broadbent’s early selection theory</p><p>all the information goes into one’s <strong>sensory register</strong>, which stores all the information we get. Then these get transferred to the <strong>selective filter</strong>. <strong>Perceptual process</strong> process the selected information to get its meaning.</p><p><img src="b.png" alt=""></p><p>flaw: cocktail party problem: if you filter before you know its meaning, then you shouldn’t identify people calling your name</p></li><li><p>Deutsch &amp; Deutsch’s late selection theory</p><p>Perceptual process happens before selective filter</p><p><img src="dd.png" alt=""></p><p>flaw: waste too much energy process all these information</p></li><li><p>Treismon’s attenuation theory</p><p>Instead of a complete selective filter, we have an <strong>attenuator</strong>: we still assign meaning to the unwanted information, but with a low priority.</p><p><img src="ta.png" alt=""></p></li></ul><h4 id="Theories-of-language-and-cognition"><a href="#Theories-of-language-and-cognition" class="headerlink" title="Theories of language and cognition"></a>Theories of language and cognition</h4><p>different theories of relations between language and thought:</p><ul><li>universalism: thought before language, and thought determines language completely</li><li>thought influence language(Piaget)</li><li>independent, but we learn to use them at the same time(Vygotsky)</li><li>linguistic determinism<ul><li>weak hypothesis: language influences thought</li><li>strong hypothesis: language determines thought completely, also called “Whorfian hypothesis”</li></ul></li></ul><h4 id="Theories-of-language-development-Nativist-learning-interactionist"><a href="#Theories-of-language-development-Nativist-learning-interactionist" class="headerlink" title="Theories of language development: Nativist, learning, interactionist"></a>Theories of language development: Nativist, learning, interactionist</h4><ul><li><p>nativist/innatist</p><p>children are born with the ability to learn language(Chomsky)</p></li><li><p>learning theory</p><p>children only acquire language through reinforcement</p></li><li><p>interactionist</p><p>biological and social factors have to interact to learn language(Vygotsky)</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Attention in cognition, including divided attention, selective attention, inattentional blindness, change blindness, theories of selective attention, theories of language and cognition and theories of language development.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Random Graphs</title>
     <link href="http://yoursite.com/2018/02/03/random%20graphs/"/>
     <id>http://yoursite.com/2018/02/03/random graphs/</id>
@@ -82,6 +82,24 @@
     <summary type="html">
     
       &lt;p&gt;proporties of random graphs&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Handling Dependency -- Bins and Balls</title>
+    <link href="http://yoursite.com/2018/02/03/handling%20dependency/"/>
+    <id>http://yoursite.com/2018/02/03/handling dependency/</id>
+    <published>2018-02-02T16:54:41.000Z</published>
+    <updated>2018-02-02T17:07:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>bins&amp;balls model, and how to handle dependency</p><a id="more"></a><h4 id="Bins-and-Balls"><a href="#Bins-and-Balls" class="headerlink" title="Bins and Balls"></a>Bins and Balls</h4><p>Put $m$ balls into $n$ bins randomly, denoted as $(m,n)$-model.</p><ul><li><p>basic properties</p><p>number of balls in any bin: $Bin(m, \frac{1}{n})$</p><p>numbers of balls in multiple bins: not independent.</p></li></ul><h4 id="Poisson-Approximation-Theorem"><a href="#Poisson-Approximation-Theorem" class="headerlink" title="Poisson Approximation Theorem"></a>Poisson Approximation Theorem</h4><p>$$<br>(X_1^{(m)}, X_2^{(m)}, \dots, X_n^{(m)}) \sim (Y_1^{(\mu)}, Y_2^{(\mu)}, \dots, Y_n^{(\mu)}| \sum_i^{(\mu)}=m)<br>$$</p><h4 id="Condition-free-Poisson-Approximation"><a href="#Condition-free-Poisson-Approximation" class="headerlink" title="Condition-free Poisson Approximation"></a>Condition-free Poisson Approximation</h4><p>$X_i^{m}$: the load of bin $i$ in $(m,n)$-model</p><p>$Y_i^{(m)}$: independent Poisson r.v.s with expectation $\frac{m}{n}$</p><p>For any non-negative $n$-ary fnction $f$, we have<br>$$<br>E[f(X_1^{(m)}, X_2^{(m)}, \dots, X_n^{(m)})] \leq\sqrt{m} E[f( (Y_1^{(m)}, Y_2^{(m)}, \dots, Y_n^{(m)})]<br>$$</p><h4 id="In-terms-of-probability…"><a href="#In-terms-of-probability…" class="headerlink" title="In terms of probability…"></a>In terms of probability…</h4><p>Any event that takes place with probability $p$ in the independent Poisson coupling takes places in Bins&amp;Balls setting with probability at most $pe\sqrt{m}$.</p><p>If the probability of an event in Bins&amp;Balls is monotonic in $m$, it is at most twice of that in the independent Poisson coupling.</p><h4 id="relation-between-Poisson-and-Normal-distribution"><a href="#relation-between-Poisson-and-Normal-distribution" class="headerlink" title="relation between Poisson and Normal distribution"></a>relation between Poisson and Normal distribution</h4><p>Should be related since both approximate binomial distribution.</p><p>When $\lambda \to \infty$, Poisson converges to Normal.</p><p>Specifically, $\lim<em>{\lambda \to \infty}\sum</em>{\alpha&lt;k&lt; \beta}\frac{\lambda^k e^{-\lambda}}{k!}=\frac{1}{\sqrt{2\pi}}\int_a^b e^{-\frac{x^2}{2}}dx$</p><p>where $a=(\alpha-\lambda)/\sqrt{\lambda}$, $b=(\beta-\lambda)/\sqrt{\lambda}$ are fixed.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;bins&amp;amp;balls model, and how to handle dependency&lt;/p&gt;
     
     </summary>
     
@@ -136,24 +154,6 @@
     <summary type="html">
     
       &lt;p&gt;basic properties of markov chains&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Handling Dependency -- Bins and Balls</title>
-    <link href="http://yoursite.com/2018/02/03/handling%20dependency/"/>
-    <id>http://yoursite.com/2018/02/03/handling dependency/</id>
-    <published>2018-02-02T16:54:41.000Z</published>
-    <updated>2018-02-02T17:07:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>bins&amp;balls model, and how to handle dependency</p><a id="more"></a><h4 id="Bins-and-Balls"><a href="#Bins-and-Balls" class="headerlink" title="Bins and Balls"></a>Bins and Balls</h4><p>Put $m$ balls into $n$ bins randomly, denoted as $(m,n)$-model.</p><ul><li><p>basic properties</p><p>number of balls in any bin: $Bin(m, \frac{1}{n})$</p><p>numbers of balls in multiple bins: not independent.</p></li></ul><h4 id="Poisson-Approximation-Theorem"><a href="#Poisson-Approximation-Theorem" class="headerlink" title="Poisson Approximation Theorem"></a>Poisson Approximation Theorem</h4><p>$$<br>(X_1^{(m)}, X_2^{(m)}, \dots, X_n^{(m)}) \sim (Y_1^{(\mu)}, Y_2^{(\mu)}, \dots, Y_n^{(\mu)}| \sum_i^{(\mu)}=m)<br>$$</p><h4 id="Condition-free-Poisson-Approximation"><a href="#Condition-free-Poisson-Approximation" class="headerlink" title="Condition-free Poisson Approximation"></a>Condition-free Poisson Approximation</h4><p>$X_i^{m}$: the load of bin $i$ in $(m,n)$-model</p><p>$Y_i^{(m)}$: independent Poisson r.v.s with expectation $\frac{m}{n}$</p><p>For any non-negative $n$-ary fnction $f$, we have<br>$$<br>E[f(X_1^{(m)}, X_2^{(m)}, \dots, X_n^{(m)})] \leq\sqrt{m} E[f( (Y_1^{(m)}, Y_2^{(m)}, \dots, Y_n^{(m)})]<br>$$</p><h4 id="In-terms-of-probability…"><a href="#In-terms-of-probability…" class="headerlink" title="In terms of probability…"></a>In terms of probability…</h4><p>Any event that takes place with probability $p$ in the independent Poisson coupling takes places in Bins&amp;Balls setting with probability at most $pe\sqrt{m}$.</p><p>If the probability of an event in Bins&amp;Balls is monotonic in $m$, it is at most twice of that in the independent Poisson coupling.</p><h4 id="relation-between-Poisson-and-Normal-distribution"><a href="#relation-between-Poisson-and-Normal-distribution" class="headerlink" title="relation between Poisson and Normal distribution"></a>relation between Poisson and Normal distribution</h4><p>Should be related since both approximate binomial distribution.</p><p>When $\lambda \to \infty$, Poisson converges to Normal.</p><p>Specifically, $\lim<em>{\lambda \to \infty}\sum</em>{\alpha&lt;k&lt; \beta}\frac{\lambda^k e^{-\lambda}}{k!}=\frac{1}{\sqrt{2\pi}}\int_a^b e^{-\frac{x^2}{2}}dx$</p><p>where $a=(\alpha-\lambda)/\sqrt{\lambda}$, $b=(\beta-\lambda)/\sqrt{\lambda}$ are fixed.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;bins&amp;amp;balls model, and how to handle dependency&lt;/p&gt;
     
     </summary>
     
