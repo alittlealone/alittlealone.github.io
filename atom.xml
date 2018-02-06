@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-05T18:20:52.000Z</updated>
+  <updated>2018-02-05T18:20:35.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>attention and language</title>
-    <link href="http://yoursite.com/2018/02/05/cognition-attention%20and%20language/"/>
-    <id>http://yoursite.com/2018/02/05/cognition-attention and language/</id>
-    <published>2018-02-05T08:56:46.000Z</published>
-    <updated>2018-02-05T18:20:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="divided-attention-selective-attention-inattentional-blindness-amp-change-blindness"><a href="#divided-attention-selective-attention-inattentional-blindness-amp-change-blindness" class="headerlink" title="divided attention, selective attention, inattentional blindness &amp; change blindness"></a>divided attention, selective attention, inattentional blindness &amp; change blindness</h4><ul><li><p>divided attention</p><p>When we want to do things simultaneously, what we actually do is switching our attention between different tasks quickly.</p></li></ul><ul><li><p>selective attention</p><p>when we focus one thing at a time, we are exercising selective attention. At any moment, we choose an area we interested at to focus on, and everything else just be ignored.</p><ul><li><p>exogenous</p><p>we don’t have to tell ourselves to look at them, e.g. bright colors, loud noises</p></li><li><p>endogenous</p><p>have to understand it in the first place, then follow it. e.g. an arrow</p></li></ul></li><li><p>inattentional blindness</p><p>We are not consciously aware of things that happen in our visional filed when our attention is directed elsewhere in that filed.</p></li><li><p>change blindness</p><p>fail to notice the difference between a previous state and current state</p></li></ul><h4 id="theories-of-selective-attention"><a href="#theories-of-selective-attention" class="headerlink" title="theories of selective attention"></a>theories of selective attention</h4><ul><li><p>Broadbent’s early selection theory</p><p>all the information goes into one’s <strong>sensory register</strong>, which stores all the information we get. Then these get transferred to the <strong>selective filter</strong>. <strong>Perceptual process</strong> process the selected information to get its meaning.</p><p><img src="b.png" alt=""></p><p>flaw: cocktail party problem: if you filter before you know its meaning, then you shouldn’t identify people calling your name</p></li><li><p>Deutsch &amp; Deutsch’s late selection theory</p><p>Perceptual process happens before selective filter</p><p><img src="dd.png" alt=""></p><p>flaw: waste too much energy process all these information</p></li><li><p>Treismon’s attenuation theory</p><p>Instead of a complete selective filter, we have an <strong>attenuator</strong>: we still assign meaning to the unwanted information, but with a low priority.</p><p><img src="ta.png" alt=""></p></li></ul><h4 id="Theories-of-language-and-cognition"><a href="#Theories-of-language-and-cognition" class="headerlink" title="Theories of language and cognition"></a>Theories of language and cognition</h4><p>different theories of relations between language and thought:</p><ul><li>universalism: thought before language, and thought determines language completely</li><li>thought influence language(Piaget)</li><li>independent, but we learn to use them at the same time(Vygotsky)</li><li>linguistic determinism<ul><li>weak hypothesis: language influences thought</li><li>strong hypothesis: language determines thought completely, also called “Whorfian hypothesis”</li></ul></li></ul><h4 id="Theories-of-language-development-Nativist-learning-interactionist"><a href="#Theories-of-language-development-Nativist-learning-interactionist" class="headerlink" title="Theories of language development: Nativist, learning, interactionist"></a>Theories of language development: Nativist, learning, interactionist</h4><ul><li><p>nativist/innatist</p><p>children are born with the ability to learn language(Chomsky)</p></li><li><p>learning theory</p><p>children only acquire language through reinforcement</p></li><li><p>interactionist</p><p>biological and social factors have to interact to learn language(Vygotsky)</p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h4 id=&quot;divided-attention-selective-attention-inattentional-blindness-amp-change-blindness&quot;&gt;&lt;a href=&quot;#divided-attention-selective-attention-
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Learn</title>
@@ -72,6 +51,27 @@
       
       
         &lt;h4 id=&quot;information-processing-model-sensory-working-and-long-term-memory&quot;&gt;&lt;a href=&quot;#information-processing-model-sensory-working-and-long-t
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>attention and language</title>
+    <link href="http://yoursite.com/2018/02/05/cognition-attention%20and%20language/"/>
+    <id>http://yoursite.com/2018/02/05/cognition-attention and language/</id>
+    <published>2018-02-05T08:56:46.000Z</published>
+    <updated>2018-02-05T18:20:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="divided-attention-selective-attention-inattentional-blindness-amp-change-blindness"><a href="#divided-attention-selective-attention-inattentional-blindness-amp-change-blindness" class="headerlink" title="divided attention, selective attention, inattentional blindness &amp; change blindness"></a>divided attention, selective attention, inattentional blindness &amp; change blindness</h4><ul><li><p>divided attention</p><p>When we want to do things simultaneously, what we actually do is switching our attention between different tasks quickly.</p></li></ul><ul><li><p>selective attention</p><p>when we focus one thing at a time, we are exercising selective attention. At any moment, we choose an area we interested at to focus on, and everything else just be ignored.</p><ul><li><p>exogenous</p><p>we don’t have to tell ourselves to look at them, e.g. bright colors, loud noises</p></li><li><p>endogenous</p><p>have to understand it in the first place, then follow it. e.g. an arrow</p></li></ul></li><li><p>inattentional blindness</p><p>We are not consciously aware of things that happen in our visional filed when our attention is directed elsewhere in that filed.</p></li><li><p>change blindness</p><p>fail to notice the difference between a previous state and current state</p></li></ul><h4 id="theories-of-selective-attention"><a href="#theories-of-selective-attention" class="headerlink" title="theories of selective attention"></a>theories of selective attention</h4><ul><li><p>Broadbent’s early selection theory</p><p>all the information goes into one’s <strong>sensory register</strong>, which stores all the information we get. Then these get transferred to the <strong>selective filter</strong>. <strong>Perceptual process</strong> process the selected information to get its meaning.</p><p><img src="b.png" alt=""></p><p>flaw: cocktail party problem: if you filter before you know its meaning, then you shouldn’t identify people calling your name</p></li><li><p>Deutsch &amp; Deutsch’s late selection theory</p><p>Perceptual process happens before selective filter</p><p><img src="dd.png" alt=""></p><p>flaw: waste too much energy process all these information</p></li><li><p>Treismon’s attenuation theory</p><p>Instead of a complete selective filter, we have an <strong>attenuator</strong>: we still assign meaning to the unwanted information, but with a low priority.</p><p><img src="ta.png" alt=""></p></li></ul><h4 id="Theories-of-language-and-cognition"><a href="#Theories-of-language-and-cognition" class="headerlink" title="Theories of language and cognition"></a>Theories of language and cognition</h4><p>different theories of relations between language and thought:</p><ul><li>universalism: thought before language, and thought determines language completely</li><li>thought influence language(Piaget)</li><li>independent, but we learn to use them at the same time(Vygotsky)</li><li>linguistic determinism<ul><li>weak hypothesis: language influences thought</li><li>strong hypothesis: language determines thought completely, also called “Whorfian hypothesis”</li></ul></li></ul><h4 id="Theories-of-language-development-Nativist-learning-interactionist"><a href="#Theories-of-language-development-Nativist-learning-interactionist" class="headerlink" title="Theories of language development: Nativist, learning, interactionist"></a>Theories of language development: Nativist, learning, interactionist</h4><ul><li><p>nativist/innatist</p><p>children are born with the ability to learn language(Chomsky)</p></li><li><p>learning theory</p><p>children only acquire language through reinforcement</p></li><li><p>interactionist</p><p>biological and social factors have to interact to learn language(Vygotsky)</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;divided-attention-selective-attention-inattentional-blindness-amp-change-blindness&quot;&gt;&lt;a href=&quot;#divided-attention-selective-attention-
       
     
     </summary>
@@ -170,24 +170,6 @@
   </entry>
   
   <entry>
-    <title>Fundamental Laws of Probability Theory</title>
-    <link href="http://yoursite.com/2018/02/03/fundamental%20laws/"/>
-    <id>http://yoursite.com/2018/02/03/fundamental laws/</id>
-    <published>2018-02-02T16:54:40.000Z</published>
-    <updated>2018-02-02T17:05:34.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Fundamental laws of probability theory, includes law of large numbers, central limit theorem, etc.</p><a id="more"></a><h4 id="Law-of-Large-Numbers"><a href="#Law-of-Large-Numbers" class="headerlink" title="Law of Large Numbers"></a>Law of Large Numbers</h4><p>The sample average converges to the expected value.</p><h4 id="Central-Limit-Theorem"><a href="#Central-Limit-Theorem" class="headerlink" title="Central Limit Theorem"></a>Central Limit Theorem</h4><p>The arithmetic mean of independent random variables is approximately normally distributed.</p><h4 id="Large-Deviation-Principle"><a href="#Large-Deviation-Principle" class="headerlink" title="Large Deviation Principle"></a>Large Deviation Principle</h4><p>Let $X_1, \dots, X_n, \dots \in R$ be i.i.d, r.v. which satisfy $E[e^{tX_1}]&lt;\infty$ for $t\in R$. Then for any $t&gt;E[X<em>1]$, we have<br>$$<br>\lim</em>{n\to \infty}\frac{1}{n}\ln Pr(\sum_{i=1}^nX<em>i \geq tn) = -I(t)<br>$$<br>where<br>$$<br>I(t) \triangleq \sup</em>{\lambda&gt;0} \lambda t - \ln E[e^{\lambda X_1}]<br>$$</p><h4 id="Law-of-large-number-in-Markov-chains"><a href="#Law-of-large-number-in-Markov-chains" class="headerlink" title="Law of large number in Markov chains"></a>Law of large number in Markov chains</h4><p>Assume Markov chain $\left{ X_n \right}$ has a positive recurrent state $a$, $Pr(a \text{ is reached}| X<em>0=1)$, and $f: S \to R$  is bounded. Then<br>$$<br>Pr\left(\lim</em>{t \to \infty} \frac{f(X_0) + \dots + f(X<em>t)}{t}=\bar{f}\right)=1<br>$$<br>where<br>$$<br>\bar{f}=\frac{E[\sum</em>{n=0}^{T_{aa}-1}f(X<em>n)]}{E[T</em>{aa}]}=E_{\pi}[f]<br>$$</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Fundamental laws of probability theory, includes law of large numbers, central limit theorem, etc.&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Elementary Probability Theory</title>
     <link href="http://yoursite.com/2018/02/03/elementary%20probability%20theory/"/>
     <id>http://yoursite.com/2018/02/03/elementary probability theory/</id>
@@ -199,6 +181,24 @@
     <summary type="html">
     
       &lt;p&gt;basic laws of probability, including union bound, bayes’s law, etc.&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Fundamental Laws of Probability Theory</title>
+    <link href="http://yoursite.com/2018/02/03/fundamental%20laws/"/>
+    <id>http://yoursite.com/2018/02/03/fundamental laws/</id>
+    <published>2018-02-02T16:54:40.000Z</published>
+    <updated>2018-02-02T17:05:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Fundamental laws of probability theory, includes law of large numbers, central limit theorem, etc.</p><a id="more"></a><h4 id="Law-of-Large-Numbers"><a href="#Law-of-Large-Numbers" class="headerlink" title="Law of Large Numbers"></a>Law of Large Numbers</h4><p>The sample average converges to the expected value.</p><h4 id="Central-Limit-Theorem"><a href="#Central-Limit-Theorem" class="headerlink" title="Central Limit Theorem"></a>Central Limit Theorem</h4><p>The arithmetic mean of independent random variables is approximately normally distributed.</p><h4 id="Large-Deviation-Principle"><a href="#Large-Deviation-Principle" class="headerlink" title="Large Deviation Principle"></a>Large Deviation Principle</h4><p>Let $X_1, \dots, X_n, \dots \in R$ be i.i.d, r.v. which satisfy $E[e^{tX_1}]&lt;\infty$ for $t\in R$. Then for any $t&gt;E[X<em>1]$, we have<br>$$<br>\lim</em>{n\to \infty}\frac{1}{n}\ln Pr(\sum_{i=1}^nX<em>i \geq tn) = -I(t)<br>$$<br>where<br>$$<br>I(t) \triangleq \sup</em>{\lambda&gt;0} \lambda t - \ln E[e^{\lambda X_1}]<br>$$</p><h4 id="Law-of-large-number-in-Markov-chains"><a href="#Law-of-large-number-in-Markov-chains" class="headerlink" title="Law of large number in Markov chains"></a>Law of large number in Markov chains</h4><p>Assume Markov chain $\left{ X_n \right}$ has a positive recurrent state $a$, $Pr(a \text{ is reached}| X<em>0=1)$, and $f: S \to R$  is bounded. Then<br>$$<br>Pr\left(\lim</em>{t \to \infty} \frac{f(X_0) + \dots + f(X<em>t)}{t}=\bar{f}\right)=1<br>$$<br>where<br>$$<br>\bar{f}=\frac{E[\sum</em>{n=0}^{T_{aa}-1}f(X<em>n)]}{E[T</em>{aa}]}=E_{\pi}[f]<br>$$</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Fundamental laws of probability theory, includes law of large numbers, central limit theorem, etc.&lt;/p&gt;
     
     </summary>
     
