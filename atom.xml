@@ -89,6 +89,24 @@
   </entry>
   
   <entry>
+    <title>Handling Dependency -- Bins and Balls</title>
+    <link href="http://yoursite.com/2018/02/03/handling%20dependency/"/>
+    <id>http://yoursite.com/2018/02/03/handling dependency/</id>
+    <published>2018-02-02T16:54:41.000Z</published>
+    <updated>2018-02-02T17:07:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>bins&amp;balls model, and how to handle dependency</p><a id="more"></a><h4 id="Bins-and-Balls"><a href="#Bins-and-Balls" class="headerlink" title="Bins and Balls"></a>Bins and Balls</h4><p>Put $m$ balls into $n$ bins randomly, denoted as $(m,n)$-model.</p><ul><li><p>basic properties</p><p>number of balls in any bin: $Bin(m, \frac{1}{n})$</p><p>numbers of balls in multiple bins: not independent.</p></li></ul><h4 id="Poisson-Approximation-Theorem"><a href="#Poisson-Approximation-Theorem" class="headerlink" title="Poisson Approximation Theorem"></a>Poisson Approximation Theorem</h4><p>$$<br>(X_1^{(m)}, X_2^{(m)}, \dots, X_n^{(m)}) \sim (Y_1^{(\mu)}, Y_2^{(\mu)}, \dots, Y_n^{(\mu)}| \sum_i^{(\mu)}=m)<br>$$</p><h4 id="Condition-free-Poisson-Approximation"><a href="#Condition-free-Poisson-Approximation" class="headerlink" title="Condition-free Poisson Approximation"></a>Condition-free Poisson Approximation</h4><p>$X_i^{m}$: the load of bin $i$ in $(m,n)$-model</p><p>$Y_i^{(m)}$: independent Poisson r.v.s with expectation $\frac{m}{n}$</p><p>For any non-negative $n$-ary fnction $f$, we have<br>$$<br>E[f(X_1^{(m)}, X_2^{(m)}, \dots, X_n^{(m)})] \leq\sqrt{m} E[f( (Y_1^{(m)}, Y_2^{(m)}, \dots, Y_n^{(m)})]<br>$$</p><h4 id="In-terms-of-probability…"><a href="#In-terms-of-probability…" class="headerlink" title="In terms of probability…"></a>In terms of probability…</h4><p>Any event that takes place with probability $p$ in the independent Poisson coupling takes places in Bins&amp;Balls setting with probability at most $pe\sqrt{m}$.</p><p>If the probability of an event in Bins&amp;Balls is monotonic in $m$, it is at most twice of that in the independent Poisson coupling.</p><h4 id="relation-between-Poisson-and-Normal-distribution"><a href="#relation-between-Poisson-and-Normal-distribution" class="headerlink" title="relation between Poisson and Normal distribution"></a>relation between Poisson and Normal distribution</h4><p>Should be related since both approximate binomial distribution.</p><p>When $\lambda \to \infty$, Poisson converges to Normal.</p><p>Specifically, $\lim<em>{\lambda \to \infty}\sum</em>{\alpha&lt;k&lt; \beta}\frac{\lambda^k e^{-\lambda}}{k!}=\frac{1}{\sqrt{2\pi}}\int_a^b e^{-\frac{x^2}{2}}dx$</p><p>where $a=(\alpha-\lambda)/\sqrt{\lambda}$, $b=(\beta-\lambda)/\sqrt{\lambda}$ are fixed.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;bins&amp;amp;balls model, and how to handle dependency&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Moments and Inequalities</title>
     <link href="http://yoursite.com/2018/02/03/moments%20and%20inequalities/"/>
     <id>http://yoursite.com/2018/02/03/moments and inequalities/</id>
@@ -118,24 +136,6 @@
     <summary type="html">
     
       &lt;p&gt;probabilistic method of counting and expection, including counting argument, first-moment method, expectation argument, second-moment method and Lovasz local lemma&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Handling Dependency -- Bins and Balls</title>
-    <link href="http://yoursite.com/2018/02/03/handling%20dependency/"/>
-    <id>http://yoursite.com/2018/02/03/handling dependency/</id>
-    <published>2018-02-02T16:54:41.000Z</published>
-    <updated>2018-02-02T17:07:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>bins&amp;balls model, and how to handle dependency</p><a id="more"></a><h4 id="Bins-and-Balls"><a href="#Bins-and-Balls" class="headerlink" title="Bins and Balls"></a>Bins and Balls</h4><p>Put $m$ balls into $n$ bins randomly, denoted as $(m,n)$-model.</p><ul><li><p>basic properties</p><p>number of balls in any bin: $Bin(m, \frac{1}{n})$</p><p>numbers of balls in multiple bins: not independent.</p></li></ul><h4 id="Poisson-Approximation-Theorem"><a href="#Poisson-Approximation-Theorem" class="headerlink" title="Poisson Approximation Theorem"></a>Poisson Approximation Theorem</h4><p>$$<br>(X_1^{(m)}, X_2^{(m)}, \dots, X_n^{(m)}) \sim (Y_1^{(\mu)}, Y_2^{(\mu)}, \dots, Y_n^{(\mu)}| \sum_i^{(\mu)}=m)<br>$$</p><h4 id="Condition-free-Poisson-Approximation"><a href="#Condition-free-Poisson-Approximation" class="headerlink" title="Condition-free Poisson Approximation"></a>Condition-free Poisson Approximation</h4><p>$X_i^{m}$: the load of bin $i$ in $(m,n)$-model</p><p>$Y_i^{(m)}$: independent Poisson r.v.s with expectation $\frac{m}{n}$</p><p>For any non-negative $n$-ary fnction $f$, we have<br>$$<br>E[f(X_1^{(m)}, X_2^{(m)}, \dots, X_n^{(m)})] \leq\sqrt{m} E[f( (Y_1^{(m)}, Y_2^{(m)}, \dots, Y_n^{(m)})]<br>$$</p><h4 id="In-terms-of-probability…"><a href="#In-terms-of-probability…" class="headerlink" title="In terms of probability…"></a>In terms of probability…</h4><p>Any event that takes place with probability $p$ in the independent Poisson coupling takes places in Bins&amp;Balls setting with probability at most $pe\sqrt{m}$.</p><p>If the probability of an event in Bins&amp;Balls is monotonic in $m$, it is at most twice of that in the independent Poisson coupling.</p><h4 id="relation-between-Poisson-and-Normal-distribution"><a href="#relation-between-Poisson-and-Normal-distribution" class="headerlink" title="relation between Poisson and Normal distribution"></a>relation between Poisson and Normal distribution</h4><p>Should be related since both approximate binomial distribution.</p><p>When $\lambda \to \infty$, Poisson converges to Normal.</p><p>Specifically, $\lim<em>{\lambda \to \infty}\sum</em>{\alpha&lt;k&lt; \beta}\frac{\lambda^k e^{-\lambda}}{k!}=\frac{1}{\sqrt{2\pi}}\int_a^b e^{-\frac{x^2}{2}}dx$</p><p>where $a=(\alpha-\lambda)/\sqrt{\lambda}$, $b=(\beta-\lambda)/\sqrt{\lambda}$ are fixed.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;bins&amp;amp;balls model, and how to handle dependency&lt;/p&gt;
     
     </summary>
     
